@@ -4,7 +4,7 @@
 
 Lightweight Barcode Encoding Library for .NET Framework, .NET Standard and .NET Core. Additional packages are available for rendering the generated barcode to SVG or an image.
 
-The barcode2 is a fork of library Barcoder by [Huysentruit](https://github.com/huysentruitw).
+The Barcoder.v2 is a fork of library Barcoder by [Huysentruit](https://github.com/huysentruitw).
 
 Supported Barcode Types:
 
@@ -30,15 +30,15 @@ Supported Barcode Types:
 
 To install the [main package](https://www.nuget.org/packages/barcoder2):
 
-    PM> Install-Package Barcoder2
+    PM> Install-Package barcoder2
 
 To install the SVG renderer:
 
-    PM> Install-Package Barcoder2.Renderer.Svg
+    PM> Install-Package barcoder2.Renderer.Svg
 
 To install the image renderer[^1]:
 
-	PM> Install-Package Barcoder2.Renderer.Image
+	PM> Install-Package barcoder2.Renderer.Image
 	
 ## Usage - render to SVG
 
